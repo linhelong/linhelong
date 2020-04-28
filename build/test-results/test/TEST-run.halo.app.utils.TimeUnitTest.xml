@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="run.halo.app.utils.TimeUnitTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-28T04:02:35" hostname="wqian-PC" time="0.0">
+  <properties/>
+  <testcase name="convertTest" classname="run.halo.app.utils.TimeUnitTest" time="0.0"/>
+  <system-out><![CDATA[2592000000
+-1702967296
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

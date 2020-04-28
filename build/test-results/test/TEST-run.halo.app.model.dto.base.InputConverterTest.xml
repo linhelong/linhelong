@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="run.halo.app.model.dto.base.InputConverterTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-04-28T04:02:04" hostname="wqian-PC" time="0.155">
+  <properties/>
+  <testcase name="subConvertToTest" classname="run.halo.app.model.dto.base.InputConverterTest" time="0.153"/>
+  <testcase name="updateTest" classname="run.halo.app.model.dto.base.InputConverterTest" time="0.001"/>
+  <testcase name="convertToTest" classname="run.halo.app.model.dto.base.InputConverterTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

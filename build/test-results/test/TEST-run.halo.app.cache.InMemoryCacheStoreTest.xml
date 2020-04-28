@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="run.halo.app.cache.InMemoryCacheStoreTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-04-28T04:02:03" hostname="wqian-PC" time="1.125">
+  <properties/>
+  <testcase name="expirationTest" classname="run.halo.app.cache.InMemoryCacheStoreTest" time="1.119"/>
+  <testcase name="putNullKeyTest" classname="run.halo.app.cache.InMemoryCacheStoreTest" time="0.001"/>
+  <testcase name="getNullTest" classname="run.halo.app.cache.InMemoryCacheStoreTest" time="0.0"/>
+  <testcase name="getByNullKeyTest" classname="run.halo.app.cache.InMemoryCacheStoreTest" time="0.0"/>
+  <testcase name="deleteTest" classname="run.halo.app.cache.InMemoryCacheStoreTest" time="0.001"/>
+  <testcase name="putNullValueTest" classname="run.halo.app.cache.InMemoryCacheStoreTest" time="0.001"/>
+  <system-out><![CDATA[12:02:03.470 [Test worker] DEBUG run.halo.app.cache.InMemoryCacheStore - Put [test_key] cache result: [null], original cache wrapper: [CacheWrapper(data=test_value, expireAt=Tue Apr 28 12:02:03 CST 2020, createAt=Tue Apr 28 12:02:03 CST 2020)]
+12:02:04.487 [Test worker] WARN run.halo.app.cache.AbstractCacheStore - Cache key: [test_key] has been expired
+12:02:04.487 [Test worker] DEBUG run.halo.app.cache.InMemoryCacheStore - Removed key: [test_key]
+12:02:04.492 [Test worker] DEBUG run.halo.app.cache.InMemoryCacheStore - Put [test_key] cache result: [null], original cache wrapper: [CacheWrapper(data=test_value, expireAt=null, createAt=Tue Apr 28 12:02:04 CST 2020)]
+12:02:04.493 [Test worker] DEBUG run.halo.app.cache.InMemoryCacheStore - Removed key: [test_key]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

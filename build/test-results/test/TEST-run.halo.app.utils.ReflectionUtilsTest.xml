@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="run.halo.app.utils.ReflectionUtilsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-28T04:02:35" hostname="wqian-PC" time="0.002">
+  <properties/>
+  <testcase name="getBaseCommentParamParameterizedTypeTest" classname="run.halo.app.utils.ReflectionUtilsTest" time="0.002"/>
+  <system-out><![CDATA[?[2m2020-04-28 12:02:35.194?[0;39m ?[32mDEBUG?[0;39m ?[35m15320?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[36mrun.halo.app.utils.ReflectionUtilsTest  ?[0;39m ?[2m:?[0;39m run.halo.app.model.params.JournalCommentParam
+?[2m2020-04-28 12:02:35.195?[0;39m ?[32mDEBUG?[0;39m ?[35m15320?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[36mrun.halo.app.utils.ReflectionUtilsTest  ?[0;39m ?[2m:?[0;39m run.halo.app.model.params.BaseCommentParam
+?[2m2020-04-28 12:02:35.195?[0;39m ?[32mDEBUG?[0;39m ?[35m15320?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[36mrun.halo.app.utils.ReflectionUtilsTest  ?[0;39m ?[2m:?[0;39m run.halo.app.model.params.BaseCommentParam<run.halo.app.model.entity.JournalComment>
+?[2m2020-04-28 12:02:35.196?[0;39m ?[32mDEBUG?[0;39m ?[35m15320?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[36mrun.halo.app.utils.ReflectionUtilsTest  ?[0;39m ?[2m:?[0;39m run.halo.app.model.dto.base.InputConverter<COMMENT>
+?[2m2020-04-28 12:02:35.196?[0;39m ?[32mDEBUG?[0;39m ?[35m15320?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[36mrun.halo.app.utils.ReflectionUtilsTest  ?[0;39m ?[2m:?[0;39m class sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl
+?[2m2020-04-28 12:02:35.196?[0;39m ?[32mDEBUG?[0;39m ?[35m15320?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[36mrun.halo.app.utils.ReflectionUtilsTest  ?[0;39m ?[2m:?[0;39m run.halo.app.model.params.BaseCommentParam<run.halo.app.model.entity.JournalComment>
+?[2m2020-04-28 12:02:35.196?[0;39m ?[32mDEBUG?[0;39m ?[35m15320?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[36mrun.halo.app.utils.ReflectionUtilsTest  ?[0;39m ?[2m:?[0;39m run.halo.app.model.entity.JournalComment
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="run.halo.app.service.impl.OptionServiceImplTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-04-28T04:02:34" hostname="wqian-PC" time="0.162">
+  <properties/>
+  <testcase name="getQiniuZ0ZoneTest" classname="run.halo.app.service.impl.OptionServiceImplTest" time="0.054"/>
+  <testcase name="getQiniuAutoZoneTest" classname="run.halo.app.service.impl.OptionServiceImplTest" time="0.102"/>
+  <testcase name="getQiniuZ2ZoneTest" classname="run.halo.app.service.impl.OptionServiceImplTest" time="0.001"/>
+  <testcase name="getQiniuAs0ZoneTest" classname="run.halo.app.service.impl.OptionServiceImplTest" time="0.0"/>
+  <testcase name="getQiniuAutoZoneOfNullOptionTest" classname="run.halo.app.service.impl.OptionServiceImplTest" time="0.0"/>
+  <testcase name="getQiniuZ1ZoneTest" classname="run.halo.app.service.impl.OptionServiceImplTest" time="0.0"/>
+  <testcase name="getQiniuNa0ZoneTest" classname="run.halo.app.service.impl.OptionServiceImplTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

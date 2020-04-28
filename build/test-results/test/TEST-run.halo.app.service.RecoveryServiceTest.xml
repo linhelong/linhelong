@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="run.halo.app.service.RecoveryServiceTest" tests="2" skipped="0" failures="1" errors="0" timestamp="2020-04-28T04:02:34" hostname="wqian-PC" time="0.005">
+  <properties/>
+  <testcase name="getMigrationFileContent" classname="run.halo.app.service.RecoveryServiceTest" time="0.001"/>
+  <testcase name="resolveMigrationContent" classname="run.halo.app.service.RecoveryServiceTest" time="0.004">
+    <failure message="com.fasterxml.jackson.core.JsonParseException: Unexpected character ('c' (code 99)): was expecting comma to separate Object entries&#10; at [Source: (String)&quot;{&#10;  &quot;attachments&quot;: [&#10;    {&#10;      &quot;attachPath&quot;: &quot;/upload/2018/4/avatar.jpeg&quot;,&#10;      &quot;attachCreated&quot;: 1524883947683,&#10;      &quot;attachType&quot;: &quot;image/jpeg&quot;,&#10;      &quot;attachSuffix&quot;: &quot;.jpeg&quot;,&#10;      &quot;attachName&quot;: &quot;avatar.jpeg&quot;,&#10;      &quot;attachId&quot;: 59,&#10;      &quot;attachSmallPath&quot;: &quot;/upload/2018/4/avatar_small.jpeg&quot;&#10;    }&#10;  ],&#10;  &quot;options&quot;: {&#10;    &quot;mail_from_name&quot;: &quot;Ryan0up'S Blog&quot;&#10;  },&#10;  &quot;links&quot;: [&#10;    {&#10;      &quot;linkId&quot;: 76,&#10;      &quot;linkUrl&quot;: &quot;http://slogc.cc&quot;,&#10;      &quot;linkPic&quot;: &quot;http://www.gravatar.com/avatar/c8d4e2c9e&quot;[truncated 18987 chars]; line: 164, column: 3114]" type="com.fasterxml.jackson.core.JsonParseException">com.fasterxml.jackson.core.JsonParseException: Unexpected character ('c' (code 99)): was expecting comma to separate Object entries
+ at [Source: (String)&quot;{
+  &quot;attachments&quot;: [
+    {
+      &quot;attachPath&quot;: &quot;/upload/2018/4/avatar.jpeg&quot;,
+      &quot;attachCreated&quot;: 1524883947683,
+      &quot;attachType&quot;: &quot;image/jpeg&quot;,
+      &quot;attachSuffix&quot;: &quot;.jpeg&quot;,
+      &quot;attachName&quot;: &quot;avatar.jpeg&quot;,
+      &quot;attachId&quot;: 59,
+      &quot;attachSmallPath&quot;: &quot;/upload/2018/4/avatar_small.jpeg&quot;
+    }
+  ],
+  &quot;options&quot;: {
+    &quot;mail_from_name&quot;: &quot;Ryan0up'S Blog&quot;
+  },
+  &quot;links&quot;: [
+    {
+      &quot;linkId&quot;: 76,
+      &quot;linkUrl&quot;: &quot;http://slogc.cc&quot;,
+      &quot;linkPic&quot;: &quot;http://www.gravatar.com/avatar/c8d4e2c9e&quot;[truncated 18987 chars]; line: 164, column: 3114]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1804)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:693)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:591)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipComma(ReaderBasedJsonParser.java:2279)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextFieldName(ReaderBasedJsonParser.java:902)
+	at com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer$Vanilla.mapObject(UntypedObjectDeserializer.java:896)
+	at com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer$Vanilla.deserialize(UntypedObjectDeserializer.java:654)
+	at com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer$Vanilla.mapArray(UntypedObjectDeserializer.java:831)
+	at com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer$Vanilla.deserialize(UntypedObjectDeserializer.java:668)
+	at com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer$Vanilla.mapObject(UntypedObjectDeserializer.java:895)
+	at com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer$Vanilla.deserialize(UntypedObjectDeserializer.java:654)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4013)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3004)
+	at run.halo.app.utils.JsonUtils.jsonToObject(JsonUtils.java:90)
+	at run.halo.app.utils.JsonUtils.jsonToObject(JsonUtils.java:71)
+	at run.halo.app.service.RecoveryServiceTest.resolveMigrationContent(RecoveryServiceTest.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:175)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:157)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.lang.Thread.run(Thread.java:745)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

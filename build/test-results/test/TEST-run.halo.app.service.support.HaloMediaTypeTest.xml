@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="run.halo.app.service.support.HaloMediaTypeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-28T04:02:34" hostname="wqian-PC" time="0.001">
+  <properties/>
+  <testcase name="gitUrlCheckTest" classname="run.halo.app.service.support.HaloMediaTypeTest" time="0.001"/>
+  <system-out><![CDATA[?[2m2020-04-28 12:02:34.967?[0;39m ?[32mDEBUG?[0;39m ?[35m15320?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[36mr.h.a.service.support.HaloMediaTypeTest ?[0;39m ?[2m:?[0;39m https://github.com/halo-dev/halo.git
+?[2m2020-04-28 12:02:34.967?[0;39m ?[32mDEBUG?[0;39m ?[35m15320?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[36mr.h.a.service.support.HaloMediaTypeTest ?[0;39m ?[2m:?[0;39m ssh://git@github.com:halo-dev/halo.git
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
